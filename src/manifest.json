@@ -17,8 +17,8 @@
       "script": "my-command.js",
       "shortcut": "ctrl o",
       "handler": "openWindowToAddOpenMoji",
-      "icon": "icons/openWindowToAddOpenMoji.png",
-      "iconDark": "icons/openWindowToAddOpenMojiDark.png",
+      "icon": "iconRunner.png",
+      "iconDark": "iconRunnerDark.png",
       "description": "openWindowToAddOpenMoji."
     }
   ],
