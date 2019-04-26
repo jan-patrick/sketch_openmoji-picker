@@ -1,6 +1,6 @@
 # OpenMoji Picker - Sketch plugin
 
-A Sketch plugin to insert (OpenMoji)[https://openmoji.org/] easily into your project.
+<p>A Sketch plugin to insert <a href="https://openmoji.org/">OpenMoji</a> easily into your project.</p>
 
 ## :arrow_down: Install
 1. Download the [latest release](https://github.com/jan-patrick/sketch_openmoji-picker/releases/latest/download/openmoji-picker.sketchplugin.zip).
