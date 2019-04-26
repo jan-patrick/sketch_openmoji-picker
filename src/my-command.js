@@ -3,9 +3,9 @@ import UI from 'sketch/ui'
 
 export function openWindowToAddOpenMoji() {
   const options = {
-    identifier: 'unique.id',
-    width: 240,
-    height: 180,
+    identifier: 'com.github.jan-patrick.sketch_artboard-history.id',
+    width: 1100,
+    height: 650,
     show: false
   }
 
