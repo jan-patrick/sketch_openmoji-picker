@@ -18,7 +18,7 @@ With Sketch Runner, just go to the `install` command and search for `Openmoji Pi
 ## :computer: Usage (for now)
 1. Open the Plugin window (manually or by shortcut: `⌃ (ctrl) + O`).
 2. Search for the OpenMoji you want.
-3. Drag and Drop the wanted icon into the normal Sketch window.
+3. :bangbang: Drag and Drop the wanted icon into the normal Sketch window. :bangbang:
 
 ### :pray: Attribution
 <p>
