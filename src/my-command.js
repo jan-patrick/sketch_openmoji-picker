@@ -1,7 +1,7 @@
 import BrowserWindow from 'sketch-module-web-view'
 import UI from 'sketch/ui'
 
-export default = () => {
+export function openWindowToAddOpenMoji() {
   const options = {
     identifier: 'unique.id',
     width: 240,
@@ -20,14 +20,14 @@ export default = () => {
 
   // print a message when the page loads
   webContents.on('did-finish-load', () => {
-    UI.message('UI loaded!')
+    //UI.message('UI loaded!')
   })
 
   // add a handler for a call from web content's javascript
   webContents.on('nativeLog', s => {
-    UI.message(s)
+    //UI.message(s)
     webContents
-      .executeJavaScript(`setRandomNumber(${Math.random()})`)
+      //.executeJavaScript(`setRandomNumber(${Math.random()})`)
       .catch(console.error)
   })
 

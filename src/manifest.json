@@ -1,17 +1,31 @@
 {
-  "compatibleVersion": 3,
+  "name": "OpenMoji Picker",
+  "description": "Add OpenMoji to your Sketch project",
+  "author": "Jan Schneider",
+  "authorEmail": "hello@jan-patrick.de",
+  "homepage": "https://github.com/jan-patrick/sketch_openmoji-picker",
+  "compatibleVersion": 54.1,
   "bundleVersion": 1,
+  "version": "0.1.0",
+  "identifier": "com.github.jan-patrick.sketch_openmoji-picker",
+  "icon": "icon.png",
+  "suppliesData": true,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Add OpenMoji",
+      "identifier": "OpenMojiPicker_openWindowToAddOpenMoji",
+      "script": "my-command.js",
+      "shortcut": "cmd alt o",
+      "handler": "openWindowToAddOpenMoji",
+      "icon": "icons/openWindowToAddOpenMoji.png",
+      "iconDark": "icons/openWindowToAddOpenMojiDark.png",
+      "description": "openWindowToAddOpenMoji."
     }
   ],
   "menu": {
-    "title": "openmoji-picker",
+    "title": "OpenMoji Picker",
     "items": [
-      "my-command-identifier"
+      "OpenMojiPicker_openWindowToAddOpenMoji"
     ]
   }
 }

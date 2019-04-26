@@ -9,6 +9,11 @@ html {
 
   /* Force the default cursor, even on text */
   cursor: default;
+  height: 100%;
+}
+
+body { 
+  height: 100%;
 }
 
 *, *:before, *:after {
@@ -21,6 +26,13 @@ html {
   -webkit-user-select: none;
   user-select: none;
 }
+
+iframe {
+  position: absolute; 
+  height: 100%; 
+  width: 100%;
+  border: none;
+} 
 
 input, textarea {
   -webkit-user-select: auto;
