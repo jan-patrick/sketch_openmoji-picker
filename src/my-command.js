@@ -25,11 +25,14 @@ export function openWindowToAddOpenMoji() {
 
   // add a handler for a call from web content's javascript
   webContents.on('nativeLog', s => {
-    //UI.message(s)
+    UI.message(s)
     webContents
       //.executeJavaScript(`setRandomNumber(${Math.random()})`)
       .catch(console.error)
   })
-
   browserWindow.loadURL(require('../resources/webview.html'))
+
+  let contents = browserWindow.webContents
+  UI.alert('what i got', JSON.stringify(contents))
+
 }
