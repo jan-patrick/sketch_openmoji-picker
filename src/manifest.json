@@ -15,7 +15,7 @@
       "name": "Add OpenMoji",
       "identifier": "OpenMojiPicker_openWindowToAddOpenMoji",
       "script": "my-command.js",
-      "shortcut": "cmd alt o",
+      "shortcut": "ctrl o",
       "handler": "openWindowToAddOpenMoji",
       "icon": "icons/openWindowToAddOpenMoji.png",
       "iconDark": "icons/openWindowToAddOpenMojiDark.png",
