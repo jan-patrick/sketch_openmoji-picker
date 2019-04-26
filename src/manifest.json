@@ -6,7 +6,7 @@
   "homepage": "https://github.com/jan-patrick/sketch_openmoji-picker",
   "compatibleVersion": 54.1,
   "bundleVersion": 1,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "identifier": "com.github.jan-patrick.sketch_openmoji-picker",
   "icon": "icon.png",
   "suppliesData": true,
