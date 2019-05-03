@@ -3,11 +3,11 @@ document.addEventListener('contextmenu', (e) => {
   e.preventDefault()
 })
 
-document.addEventListener("click", event => {
-  window.postMessage('nativeLog', 'hi')
-  var t = document.getElementById("iframeId").contentWindow.location.href
-  window.postMessage('nativeLog', t)
-})
+//document.addEventListener("click", event => {
+//  window.postMessage('nativeLog', 'hi')
+ // var t = document.getElementById("iframeId").contentWindow.location.href
+ // window.postMessage('nativeLog', t)
+//})
 
 //document.getElementById("iframeId").document.addEventListener("click", event => {
 //  window.postMessage('nativeLog', 'clicked on iFrame')

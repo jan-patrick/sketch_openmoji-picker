@@ -6,7 +6,7 @@
   "homepage": "https://github.com/jan-patrick/sketch_openmoji-picker",
   "compatibleVersion": 54.1,
   "bundleVersion": 1,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "identifier": "com.github.jan-patrick.sketch_openmoji-picker",
   "icon": "icon.png",
   "suppliesData": true,
@@ -19,7 +19,7 @@
       "handler": "openWindowToAddOpenMoji",
       "icon": "iconRunner.png",
       "iconDark": "iconRunnerDark.png",
-      "description": "openWindowToAddOpenMoji."
+      "description": "Let's you insert an OpenMoji via the official website."
     },
     {
       "script": "my-command.js",
