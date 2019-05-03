@@ -20,6 +20,16 @@
       "icon": "iconRunner.png",
       "iconDark": "iconRunnerDark.png",
       "description": "openWindowToAddOpenMoji."
+    },
+    {
+      "script": "my-command.js",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartup",
+          "Shutdown": "onShutdown",
+          "SupplyData": "onSupplyData"
+        }
+      }
     }
   ],
   "menu": {

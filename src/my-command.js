@@ -1,5 +1,6 @@
 import BrowserWindow from 'sketch-module-web-view'
 import UI from 'sketch/ui'
+var DataSupplier = require('sketch/data-supplier')
 
 export function openWindowToAddOpenMoji() {
   const options = {
@@ -33,6 +34,26 @@ export function openWindowToAddOpenMoji() {
   browserWindow.loadURL(require('../resources/webview.html'))
 
   let contents = browserWindow.webContents
-  UI.alert('what i got', JSON.stringify(contents))
+  //UI.alert('what i gdot', JSON.stringify(contents))
 
+}
+
+export function onStartup () {
+  // To register the plugin, uncomment the relevant type:
+  //DataSupplier.registerDataSupplier('public.text', '{{ name }}', 'SupplyData')
+  DataSupplier.registerDataSupplier('public.image', 'OpenMoji Picker', 'SupplyData')
+}
+
+export function onShutdown () {
+  // Deregister the plugin
+  DataSupplier.deregisterDataSuppliers()
+}
+
+export function onSupplyData (context) {
+  let dataKey = context.data.key
+  const items = util.toArray(context.data.items).map(sketch.fromNative)
+  items.forEach((item, index) => {
+    let data = Math.random().toString()
+    DataSupplier.supplyDataAtIndex(dataKey, data, index)
+  })
 }
