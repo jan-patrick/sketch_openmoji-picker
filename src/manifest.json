@@ -33,7 +33,7 @@
     }
   ],
   "menu": {
-    "title": "OpenMoji Picker",
+    "isRoot": true,
     "items": [
       "OpenMojiPicker_openWindowToAddOpenMoji"
     ]
