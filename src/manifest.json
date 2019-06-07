@@ -6,13 +6,13 @@
   "homepage": "https://github.com/jan-patrick/sketch_openmoji-picker",
   "compatibleVersion": 54.1,
   "bundleVersion": 1,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "identifier": "com.github.jan-patrick.sketch_openmoji-picker",
   "icon": "icon.png",
   "suppliesData": true,
   "commands": [
     {
-      "name": "Add OpenMoji",
+      "name": "OpenMoji",
       "identifier": "OpenMojiPicker_openWindowToAddOpenMoji",
       "script": "my-command.js",
       "shortcut": "ctrl o",
