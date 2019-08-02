@@ -32,7 +32,7 @@
     "resources/**/*.js"
   ],
   "dependencies": {
-    "sketch-module-web-view": "^3.0.1"
+    "sketch-module-web-view": "^3.1.0"
   },
   "author": "jan-patrick <jan.schneider@hfg-gmuend.de>"
 }
